@@ -82,5 +82,12 @@ Sí, definitivamente puedo usar distribuciones de probabilidad para identificar 
 - **Identificación de cambios en hábitos:** Si de repente mi uso deja de seguir la distribución Weibull que has identificado, esto podría indicar un cambio en mis hábitos o rutina diaria.
 
 ### Conclusion
-La distribución Weibull con los parámetros específicos obtenidos (forma: 1.696, ubicación: 394.51, escala: 164.70) sugiere que mi uso del celular tiene cierta consistencia pero también variabilidad predecible, lo que hace que sea un buen candidato para este tipo de modelado predictivo de comportamiento personal.
-El parámetro de forma mayor que 1 indica que la probabilidad de uso aumenta hasta cierto punto y luego disminuye, lo cual es coherente con patrones típicos de uso de dispositivos móviles.
+El análisis realizado nos permitió modelar el tiempo de uso diario del celular como una distribución de probabilidad, y tras ajustar múltiples distribuciones, encontramos que la **distribución Weibull (weibull_min)** fue la mejor opción según el criterio de error cuadrático mínimo.
+
+Los parámetros obtenidos indican que el uso del celular sigue un patrón que crece hasta cierto punto y luego disminuye, lo que sugiere que hay una tendencia natural a alcanzar un límite máximo de uso en el día. Este hallazgo es interesante porque refleja hábitos que pueden ser influenciados por la rutina diaria, factores externos como el trabajo o el estudio, e incluso la fatiga o la desconexión voluntaria.
+
+Este modelo no solo permite predecir cuánto tiempo se usará el celular en un día determinado, sino que también proporciona herramientas para el **autocontrol y la optimización del tiempo**. Conociendo la distribución, se pueden establecer **límites saludables de uso**, identificar cuándo un comportamiento se aleja de la norma y evaluar si estrategias de reducción de tiempo de pantalla están teniendo efecto.
+
+Además, la metodología utilizada puede extenderse a otros contextos, como la comparación con el uso de otras personas, el análisis de hábitos en diferentes momentos del año, o incluso el estudio del impacto de nuevos hábitos tecnológicos en la vida diaria.
+
+En definitiva, este ejercicio demuestra cómo las **distribuciones de probabilidad pueden ser aplicadas para modelar comportamientos humanos**, permitiendo no solo comprender mejor nuestros patrones de uso, sino también generar estrategias informadas para mejorar la gestión del tiempo y el bienestar digital.
