@@ -60,6 +60,14 @@ La mejor distribución según la suma de errores cuadráticos fue `weibull_min`,
 - **Escala (scale)**: 164.70
 
 ### Reflexiones sobre los parámetros y usos del modelo
+
+#### Parámetros más apropiados que describen la distribución seleccionada
+Los tres parámetros mencionados arriba son los que mejor describen tu distribución:
+- El parámetro **c** (forma) de 1.695 indica que la tasa de fallo aumenta con el tiempo, ya que es mayor que 1. Esto sugiere que los valores tienden a concentrarse hacia la parte central-derecha de la distribución.
+- El parámetro **loc** (394.51) representa el punto de inicio o desplazamiento de la distribución.
+- El parámetro **scale** (164.70) define la dispersión o amplitud de la distribución.
+
+
 #### ¿Cómo podrías utilizar el modelo creado?
 - **Predicción de uso diario**: Puedo utilizar este modelo Weibull para predecir la probabilidad de que en un día determinado use mi celular por una cantidad específica de minutos. Por ejemplo, podría calcular la probabilidad de que use mi celular más de 500 minutos en un día.
 - **Establecimiento de límites saludables**: Basándote en la distribución, podría identificar qué constituye un uso "normal" versus "excesivo", ayudándome a establecer límites saludables de uso del celular.
